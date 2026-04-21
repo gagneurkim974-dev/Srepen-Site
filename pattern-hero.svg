@@ -1,50 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
   <defs>
-    <!-- Piton asymétrique extrait du logo SREPEN (polygone orange normalisé) -->
+    <!-- Piton asymétrique extrait du logo SREPEN -->
     <polygon id="srepen-peak" points="0,51.48 13.47,51.48 70.34,0 0,51.48"/>
 
-    <!-- Papangue extrait du logo SREPEN (rapace endémique de La Réunion) -->
+    <!-- Papangue extrait du logo SREPEN -->
     <path id="srepen-papangue" d="M149.3,16.59s-.02.08.02.1c.19.06.65.18,1.26.23.81.07,2.12-.26,2.92-.02,1.65,1.27,3.01,2.48,3.85,3.59.32.51.5,1.07.57,1.68.09.96.18,1.86.28,2.4.08.42.33,1.21.58,2.01.17.53.23,1.13.16,1.81.15.04.27-.08.39-.27.95-3.07.67-5.89-.06-8.62-.44-.48-1.13-1.02-1.91-1.57-.61-.46-1.13-.96-1.57-1.49-.27-.34-.36-.6-.04-.65.16-.05.75.23.83.25.15-.14,0-.53-.07-.65-.1-.19-.19-.39-.26-.58-.12-.26-.46-.37-.83-.46-.64-.11-1.03-.26-1.21-.44-.43-.53-.73-1.16-.96-1.85-.28-.74-.52-1.48-.71-2.21-.07-.49-.16-.89-.25-1.21-.53-1.29-6.94-4.54-8.44-4.16,1.28,1.33,2.69,2.52,4.32,3.44.55.22,1.11.45,1.22.58.7.69,2.36,5.34,2.21,6.11-.2.17-.44.34-.71.5-.44.25-.83.6-1.14,1h0c-.14.19-.28.35-.43.5Z"/>
-
-    <!-- Ligne courbée bleue du logo (swoop/trait d'union) -->
-    <path id="srepen-swoop" d="M149.07,16.77c-9.44,5.86-15.6,9.33-17.19,9.22-3.89-.21-17.08-12.64-30.88-25.87,11,12.32,26.21,28.06,29.46,28.41,2.37.35,10.85-5.98,18.61-11.76Z"/>
   </defs>
 
-  <!-- Pitons en arrière-plan (grands, très estompés) -->
-  <g fill="#ffffff" fill-opacity="0.05">
-    <use href="#srepen-peak" transform="translate(-30 240) scale(3.2 3.5)"/>
-    <use href="#srepen-peak" transform="translate(780 230) scale(3.8 3.8)"/>
+  <!-- Pitons arrière-plan (grands, estompés) -->
+  <g fill="#ffffff" fill-opacity="0.08">
+    <use href="#srepen-peak" transform="translate(-50 150) scale(3.2 3.2)"/>
+    <use href="#srepen-peak" transform="translate(760 140) scale(3.6 3.6)"/>
   </g>
 
   <!-- Pitons moyens -->
-  <g fill="#ffffff" fill-opacity="0.09">
-    <use href="#srepen-peak" transform="translate(220 280) scale(2 2.2)"/>
-    <use href="#srepen-peak" transform="translate(560 260) scale(2.4 2.4)"/>
-    <use href="#srepen-peak" transform="translate(1000 290) scale(1.7 1.8)"/>
+  <g fill="#ffffff" fill-opacity="0.14">
+    <use href="#srepen-peak" transform="translate(200 200) scale(2.2 2.2)"/>
+    <use href="#srepen-peak" transform="translate(540 180) scale(2.6 2.6)"/>
+    <use href="#srepen-peak" transform="translate(980 210) scale(1.9 1.9)"/>
   </g>
 
   <!-- Pitons premier plan -->
-  <g fill="#ffffff" fill-opacity="0.13">
-    <use href="#srepen-peak" transform="translate(100 320) scale(1.2 1.4)"/>
-    <use href="#srepen-peak" transform="translate(420 310) scale(1.4 1.5)"/>
-    <use href="#srepen-peak" transform="translate(860 315) scale(1.3 1.4)"/>
-    <use href="#srepen-peak" transform="translate(1120 320) scale(1 1.2)"/>
+  <g fill="#ffffff" fill-opacity="0.22">
+    <use href="#srepen-peak" transform="translate(80 240) scale(1.5 1.5)"/>
+    <use href="#srepen-peak" transform="translate(400 230) scale(1.7 1.7)"/>
+    <use href="#srepen-peak" transform="translate(840 235) scale(1.5 1.5)"/>
+    <use href="#srepen-peak" transform="translate(1100 240) scale(1.2 1.3)"/>
   </g>
 
-  <!-- Swoop bleu stylisé (une seule, diagonale, doux) -->
-  <g stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.12" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <use href="#srepen-swoop" transform="translate(280 40) scale(2.4 2.4)"/>
-  </g>
-
-  <!-- Papangues en vol : grands + moyens + petits -->
+  <!-- Papangues en vol -->
   <g fill="#ffffff">
-    <!-- Grand, proéminent -->
-    <use href="#srepen-papangue" transform="translate(720 -60) scale(1.8)" fill-opacity="0.18"/>
-    <!-- Moyen -->
-    <use href="#srepen-papangue" transform="translate(180 60) scale(1.1) rotate(-8 150 20)" fill-opacity="0.13"/>
-    <!-- Petits éloignés -->
-    <use href="#srepen-papangue" transform="translate(1020 130) scale(0.7) rotate(-12 150 20)" fill-opacity="0.09"/>
-    <use href="#srepen-papangue" transform="translate(440 160) scale(0.55) rotate(-5 150 20)" fill-opacity="0.08"/>
-    <use href="#srepen-papangue" transform="translate(40 200) scale(0.45) rotate(-15 150 20)" fill-opacity="0.07"/>
+    <use href="#srepen-papangue" transform="translate(720 -70) scale(2)" fill-opacity="0.28"/>
+    <use href="#srepen-papangue" transform="translate(160 40) scale(1.3) rotate(-8 150 20)" fill-opacity="0.22"/>
+    <use href="#srepen-papangue" transform="translate(1010 100) scale(0.85) rotate(-12 150 20)" fill-opacity="0.18"/>
+    <use href="#srepen-papangue" transform="translate(430 130) scale(0.7) rotate(-5 150 20)" fill-opacity="0.15"/>
+    <use href="#srepen-papangue" transform="translate(30 170) scale(0.55) rotate(-15 150 20)" fill-opacity="0.12"/>
   </g>
 </svg>
